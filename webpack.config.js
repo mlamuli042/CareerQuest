@@ -14,7 +14,7 @@ module.exports = {
     assetModuleFilename: '[name][ext]',
   },
   devtool: 'source-map',
-  devServer:{
+  devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
@@ -60,7 +60,7 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options:{
+          options: {
             presets: ['@babel/preset-env'],
           },
         },

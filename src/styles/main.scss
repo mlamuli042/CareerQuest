@@ -1,2 +1,43 @@
+$color-light-grey: #e2e5ee;
+$color-black: #181717;
+$color-white: #fff;
+$color-red:#b80c03;
+$color-dark-grey:#aaadb3;
+$color-blue: #4a8dda;
+
+$theme_colors:(
+  "primary": $color-black,
+  "danger": $color-red
+);
+
+$border-radius: 0;
+
+
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+.navbar{
+    box-shadow: 2px 2px 5px $color-black;
+    opacity: 0.9;
+    background: $color-white;
+  }
+  
+  .nav-item{
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+  .main-header{
+    background-color: $color-light-grey;
+    color:$color-white;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);  
+  }
+  #moet{
+    height:200px;
+    width: 200px;
+  }
+  .footer-header{
+    color: $color-blue;
+  }
+
+
+  

@@ -1,109 +1,302 @@
 {
-    "interest_areas":[
-        {
-            "id": 1,
-            "title": "Artistic",
-            "description": "If you are interested in ARTISTIC area, it means that you like creative activities such as writing, acting, music, drama, singing or arts and crafts. To get jobs in this area, formal education is not very important. You need to have creative talents and special training in the particular job you want to get.",
-            "can do": "Write stories, articles, or poems",
-            "work groups": ["Literary Arts", "Visual Arts", "Perfoming Arts: Drama", 
-                            "Perfoming Arts: Music", "Perfoming Arts: Dance", "Craft Arts",
-                            "Elemental Arts", "Modelling"
-                        ],
-            "jobs available": ["Editor", "Writer", "Musician", "Painter", "Model", "Singer", 
-                           "Actor or Actress", "Arts and Crafts"
-                        ]
-        },
-        {
-            "id": 2,
-            "title": "Scientific",
-            "description": "If you are interested in the SCIENTIFIC area, it means that you like to collect and study information about the natural world. To get jobs in this area, you need to have good grades in maths and science, and many years of formal education beyond high school.",
-            "can do": "Work with chemicals in a laboratory",
-            "work groups": ["Physical science", "Life science", "Medical science", 
-                            "Laboratory Technology"
-                        ],
-            "jobs available": ["Biologist", "Chemist", "Physicist", "Mathematician", "Astronomer", "Medical doctor", 
-                           "Dentist", "Veterinarian (Animal doctor)", "X-ray technician", "Medical technician"
-                        ]
-        },
-        {
-            "id": 3,
-            "title": "Plants and Animals",
-            "description": "If you are interested in the area of PLANTS AND ANIMALS, it means that you like to work with plants and animals outdoors. Some education is needed for most of the jobs in this area. If you like to be a farmer, agricultural education will be helpfull.",
-            "can do": "Grow crops or raise farm animals",
-            "work groups": ["Managerail work: Plants and animals", "General supervision work: Plants and animals", "Animal training and Service"],
-            "jobs available": ["Farmer", "Forester", "Gardener", "Nursery keeper", "Wildlife manager", "Reseacher on plants and animals"]
-        },
-        {
-            "id": 4,
-            "title": "Protective",
-            "description": "If you are interested in the PROTECTIVE area, it means that you like to protect people and property. Some of the jobs in this area do not need much formal education. However, some education is always helpful. There are special schools to train police, security guards and soldiers. Other workers in this are are trained on the job.",
-            "can do": "Guard or protect an office buliding",
-            "work groups": ["Safety and law enforcement", "Security services"],
-            "jobs available": ["Soldier", "Police", "Security guard", "Prison warden", "Park ranger", "Fire fighter", "Customs officer", "Detective"]
-        },
-        {
-            "id": 5,
-            "title": "Mechanical",
-            "description": "If you are interested in the MECHANICAL area, it means that you like to work with machines and tools. There are three levels of jobs in this area. To be an engineer, you need university education. To be a mechanic, plumber, carpenter or electrician, you need technical training, Other jobs in this area require on-the-job training.",
-            "can do": "Repair electronic equipment",
-            "work groups": ["Engineering", "Managerial work: Mechanical", "Engineering Technology", "Air and Water Vehicle Operation", "Craft Technology", "Systems Operation", "Quality Control", "Land and Water Vehicle Operation", "Material control", "Crafts", "Equipment operation", "Elemental work: Mechanical"],
-            "jobs available": ["Engineer", "Mechanic", "Plumber", "Carpenter", "Electrician", "Bricklayer", "Truck driver", "Train operator", "Logger", "Miner", "Quarrier", "Earth mover"]
-        },
-        {
-            "id": 6,
-            "title": "Industrial",
-            "description": "If you are interested in the INDUSTRIAL area, it means that you like to work in a factory with the same activity that repeats many times in a day. Formal education is not important for this area of jobs. Workers are trained on he job",
-            "can do": "Run machines to make metal parts",
-            "work groups": ["Production technology", "Production work", "Quality control", "Elemental work: Industria"],
-            "jobs available": ["Machine operator in a factory", "Assembly line worker", "Launderer and dry cleaner", "Ticketing worker", "Wrapping and packing worker", "Loader", "Labourer"]
-        },
-        {
-            "id": 7,
-            "title": "Office work",
-            "description": "If you are interested in OFFICE WORK, you like activities which require accuracy and attention to details, usually in an office. Most of the jobs in this area require form 5 education and additional vocational training.",
-            "can do": "Make appointments, type letters and file reports",
-            "work groups": ["Administrative detail", "Methematical detail", "Financial detail", "Oral communications", "Records processing", "Clerical machine operation", "Clerical handling"],
-            "jobs available": ["Secretary", "Typist", "Filing clerk", "Bookkeeper", "Bank teller", "Cashier", "Receptionist", "Computer operator", "Switchboard operator"]
-        },
-        {
-            "id": 8,
-            "title": "Selling",
-            "description": "If you are interested in the area of SELLING, you like to buy and sell things to others. Some education is helpfull, but not always necessary for jobs in this area.",
-            "can do": "Select goods for a store to sell",
-            "work groups": ["Sales technology", "General sales", "Vending"],
-            "jobs available": ["Seller", "Demonstration seller", "Real estate seller", "Insurance seller", "Peddler and hawker"]
-        },
-        {
-            "id": 9,
-            "title": "Accomodating",
-            "description": "If you are interested in the area of SERVING or ACCOMODATING, you like to carter to the wishes and needs of others in your work, usually on a one-to-one basis. Formal education is not important for jobs in this area. Most of the jobs in this area need on-the-job training.",
-            "can do": "See to the comfort of plane passengers",
-            "work groups": ["Hospitality services", "Barber and beauty services", "Passenger services", "Passenger services", "Attendant services"],
-            "jobs available": ["Barber", "Hair dresser", "Airline attendat", "Tour guide", "Waiter and waitress", "Potter", "Housekeeper", "Maid"]
-        },
-        {
-            "id": 10,
-            "title": "Social",
-            "description": "If you are interested in the SOCIAL area, you like to help others with their personal or physical needs. Most of the jobs in this area require a form 5 education. Some of them such as the social worker and counselor require university education. Others such as the nurse and physio-therapist need special tarining in nursing or physio-therapy.",
-            "can do": "Work in a family-life agencies",
-            "work groups": ["Social services", "Nursing, Therapy, and Specialized Teaching services", "Child and Adult care"],
-            "jobs available": ["Social worker", "Counselor", "Nurse", "Special doctor", "Physio-therapist", "Psychologist", "Priest"]
-        },
-        {
-            "id": 11,
-            "title": "Leading-Influencing",
-            "description": "If you have an interest in the area of LEADING, you like to direct and influence others. You will need high level language and mathematical abilities to do jobs in this area. Formal education is necessary for most of the jobs, usually at university level or beyond.",
-            "can do": "Plan a school or church activity",
-            "work groups": ["Mathematics and Statistics", "Educational and Library services", "Social research", "Law", "Business administration", "Finance", "Services administration", "Communications", "Promotion", "Regulations Enforcements", "Business Management", "Contracts and Claims"],
-            "jobs available": ["Teacher", "Lawyer", "Accountant", "Manager", "Minister", "Headtecher", "Administrator"]
-        },
-        {
-            "id": 12,
-            "title": "Physical performing",
-            "description": "If you are interested in the PHYSICAL area, it means that you like to compete in sports in front of spectators. Formal education is usually not necessary. However, you need high interest, descipline, talent and training to get a job in a particular sport.",
-            "can do": "Think of ways to win athletic games",
-            "work groups": ["Sports", "Physical Feats"],
-            "jobs available": ["Athlete", "Referee", "Soccer player", "Karateka", "Coach", "Boxer"]
-        }
-    ]
+  "interest_areas": [
+    {
+      "id": "1",
+      "title": "Artistic",
+      "description": "If you are interested in ARTISTIC area, it means that you like creative activities such as writing, acting, music, drama, singing or arts and crafts. To get jobs in this area, formal education is not very important. You need to have creative talents and special training in the particular job you want to get.",
+      "can do": "Write stories, articles, or poems",
+      "work groups": [
+        "Literary Arts",
+        "Visual Arts",
+        "Perfoming Arts: Drama",
+        "Perfoming Arts: Music",
+        "Perfoming Arts: Dance",
+        "Craft Arts",
+        "Elemental Arts",
+        "Modelling"
+      ],
+      "jobs available": [
+        "Editor",
+        "Writer",
+        "Musician",
+        "Painter",
+        "Model",
+        "Singer",
+        "Actor or Actress",
+        "Arts and Crafts"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Scientific",
+      "description": "If you are interested in the SCIENTIFIC area, it means that you like to collect and study information about the natural world. To get jobs in this area, you need to have good grades in maths and science, and many years of formal education beyond high school.",
+      "can do": "Work with chemicals in a laboratory",
+      "work groups": [
+        "Physical science",
+        "Life science",
+        "Medical science",
+        "Laboratory Technology"
+      ],
+      "jobs available": [
+        "Biologist",
+        "Chemist",
+        "Physicist",
+        "Mathematician",
+        "Astronomer",
+        "Medical doctor",
+        "Dentist",
+        "Veterinarian (Animal doctor)",
+        "X-ray technician",
+        "Medical technician"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Plants and Animals",
+      "description": "If you are interested in the area of PLANTS AND ANIMALS, it means that you like to work with plants and animals outdoors. Some education is needed for most of the jobs in this area. If you like to be a farmer, agricultural education will be helpfull.",
+      "can do": "Grow crops or raise farm animals",
+      "work groups": [
+        "Managerail work: Plants and animals",
+        "General supervision work: Plants and animals",
+        "Animal training and Service"
+      ],
+      "jobs available": [
+        "Farmer",
+        "Forester",
+        "Gardener",
+        "Nursery keeper",
+        "Wildlife manager",
+        "Reseacher on plants and animals"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Protective",
+      "description": "If you are interested in the PROTECTIVE area, it means that you like to protect people and property. Some of the jobs in this area do not need much formal education. However, some education is always helpful. There are special schools to train police, security guards and soldiers. Other workers in this are are trained on the job.",
+      "can do": "Guard or protect an office buliding",
+      "work groups": [
+        "Safety and law enforcement",
+        "Security services"
+      ],
+      "jobs available": [
+        "Soldier",
+        "Police",
+        "Security guard",
+        "Prison warden",
+        "Park ranger",
+        "Fire fighter",
+        "Customs officer",
+        "Detective"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Mechanical",
+      "description": "If you are interested in the MECHANICAL area, it means that you like to work with machines and tools. There are three levels of jobs in this area. To be an engineer, you need university education. To be a mechanic, plumber, carpenter or electrician, you need technical training, Other jobs in this area require on-the-job training.",
+      "can do": "Repair electronic equipment",
+      "work groups": [
+        "Engineering",
+        "Managerial work: Mechanical",
+        "Engineering Technology",
+        "Air and Water Vehicle Operation",
+        "Craft Technology",
+        "Systems Operation",
+        "Quality Control",
+        "Land and Water Vehicle Operation",
+        "Material control",
+        "Crafts",
+        "Equipment operation",
+        "Elemental work: Mechanical"
+      ],
+      "jobs available": [
+        "Engineer",
+        "Mechanic",
+        "Plumber",
+        "Carpenter",
+        "Electrician",
+        "Bricklayer",
+        "Truck driver",
+        "Train operator",
+        "Logger",
+        "Miner",
+        "Quarrier",
+        "Earth mover"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Industrial",
+      "description": "If you are interested in the INDUSTRIAL area, it means that you like to work in a factory with the same activity that repeats many times in a day. Formal education is not important for this area of jobs. Workers are trained on he job",
+      "can do": "Run machines to make metal parts",
+      "work groups": [
+        "Production technology",
+        "Production work",
+        "Quality control",
+        "Elemental work: Industria"
+      ],
+      "jobs available": [
+        "Machine operator in a factory",
+        "Assembly line worker",
+        "Launderer and dry cleaner",
+        "Ticketing worker",
+        "Wrapping and packing worker",
+        "Loader",
+        "Labourer"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Office work",
+      "description": "If you are interested in OFFICE WORK, you like activities which require accuracy and attention to details, usually in an office. Most of the jobs in this area require form 5 education and additional vocational training.",
+      "can do": "Make appointments, type letters and file reports",
+      "work groups": [
+        "Administrative detail",
+        "Methematical detail",
+        "Financial detail",
+        "Oral communications",
+        "Records processing",
+        "Clerical machine operation",
+        "Clerical handling"
+      ],
+      "jobs available": [
+        "Secretary",
+        "Typist",
+        "Filing clerk",
+        "Bookkeeper",
+        "Bank teller",
+        "Cashier",
+        "Receptionist",
+        "Computer operator",
+        "Switchboard operator"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Selling",
+      "description": "If you are interested in the area of SELLING, you like to buy and sell things to others. Some education is helpfull, but not always necessary for jobs in this area.",
+      "can do": "Select goods for a store to sell",
+      "work groups": [
+        "Sales technology",
+        "General sales",
+        "Vending"
+      ],
+      "jobs available": [
+        "Seller",
+        "Demonstration seller",
+        "Real estate seller",
+        "Insurance seller",
+        "Peddler and hawker"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Accomodating",
+      "description": "If you are interested in the area of SERVING or ACCOMODATING, you like to carter to the wishes and needs of others in your work, usually on a one-to-one basis. Formal education is not important for jobs in this area. Most of the jobs in this area need on-the-job training.",
+      "can do": "See to the comfort of plane passengers",
+      "work groups": [
+        "Hospitality services",
+        "Barber and beauty services",
+        "Passenger services",
+        "Passenger services",
+        "Attendant services"
+      ],
+      "jobs available": [
+        "Barber",
+        "Hair dresser",
+        "Airline attendat",
+        "Tour guide",
+        "Waiter and waitress",
+        "Potter",
+        "Housekeeper",
+        "Maid"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Social",
+      "description": "If you are interested in the SOCIAL area, you like to help others with their personal or physical needs. Most of the jobs in this area require a form 5 education. Some of them such as the social worker and counselor require university education. Others such as the nurse and physio-therapist need special tarining in nursing or physio-therapy.",
+      "can do": "Work in a family-life agencies",
+      "work groups": [
+        "Social services",
+        "Nursing, Therapy, and Specialized Teaching services",
+        "Child and Adult care"
+      ],
+      "jobs available": [
+        "Social worker",
+        "Counselor",
+        "Nurse",
+        "Special doctor",
+        "Physio-therapist",
+        "Psychologist",
+        "Priest"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Leading-Influencing",
+      "description": "If you have an interest in the area of LEADING, you like to direct and influence others. You will need high level language and mathematical abilities to do jobs in this area. Formal education is necessary for most of the jobs, usually at university level or beyond.",
+      "can do": "Plan a school or church activity",
+      "work groups": [
+        "Mathematics and Statistics",
+        "Educational and Library services",
+        "Social research",
+        "Law",
+        "Business administration",
+        "Finance",
+        "Services administration",
+        "Communications",
+        "Promotion",
+        "Regulations Enforcements",
+        "Business Management",
+        "Contracts and Claims"
+      ],
+      "jobs available": [
+        "Teacher",
+        "Lawyer",
+        "Accountant",
+        "Manager",
+        "Minister",
+        "Headtecher",
+        "Administrator"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Physical performing",
+      "description": "If you are interested in the PHYSICAL area, it means that you like to compete in sports in front of spectators. Formal education is usually not necessary. However, you need high interest, descipline, talent and training to get a job in a particular sport.",
+      "can do": "Think of ways to win athletic games",
+      "work groups": [
+        "Sports",
+        "Physical Feats"
+      ],
+      "jobs available": [
+        "Athlete",
+        "Referee",
+        "Soccer player",
+        "Karateka",
+        "Coach",
+        "Boxer"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "date": "08/02/2024",
+      "name": "Mlamuli Masilela",
+      "gender": "Male",
+      "career_guidance_teacher": "Mr, F. Dlamini",
+      "school": "Malibeli High School",
+      "grade": "Form 1"
+    },
+    {
+      "id": "2",
+      "date": "08/02/2024",
+      "name": "Mpetty Gule",
+      "gender": "Male",
+      "career_guidance_teacher": "Mr, F. Dlamini",
+      "school": "Mabhengu High School",
+      "grade": "Form 1"
+    }
+  ]
 }

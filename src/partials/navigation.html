@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand me-auto" href="index.html">Career Quest</a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Career Quest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-center">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="#"><i
+                class="fa-sharp fa-solid fa-house d-block"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="#"><i class="fa-solid fa-circle-info d-block"></i> About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <div class="user-avater">
+        <i class="fa-solid fa-circle-user fa-2x d-block"></i>
+        <span>Me <i class="fa-solid fa-caret-down"></i></span>
+      </div>
+      <div class="user-profile-wrap mt-2" id="subMenu">
+        <div class="user-profile-sub">
+          <div class="user-profile">
+            <div class="d-flex">
+              <div class="icon p-2"><i class="fa-solid fa-circle-user fa-2x"></i></div>
+              <div class="align-self-start">
+                <strong class="student-name"></strong>
+                <small class="student-school d-block"></small>
+              </div>
+            </div>
+            <a href="#" class="user-profile-btn">View Profile</a>
+          </div>
+          <hr>
+            <b>Manage</b>
+            <a href="#" class="sub-menu-link">
+              <i class="fa-solid fa-gear p-3"></i>
+              <p class="my-auto">Settings & Privacy</p>
+              <span>></span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <i class="fa-solid fa-question p-3"></i>
+              <p class="my-auto">Help & Support</p>
+              <span>></span>
+            </a>
+            <hr>
+            <a href="#" class="sub-menu-link">
+              <i class="fa-solid fa-right-from-bracket p-3"></i>
+              <p class="my-auto">Logout</p>
+              <span>></span>
+            </a>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <a href="login.html" class="btn login-btn"><i class="fa-solid fa-user"></i> Login</a>
+        <a href="registration.html" class="btn btn-primary register-btn"><i class="fa-solid fa-user-plus"></i>
+          Register</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</nav>

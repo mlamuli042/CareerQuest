@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <navigation></navigation>
+    <div class="container registrationContainer mt-5 py-5 ">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-lg-8 col-xl-6" id="form-div">
+                <h3 class="pb-2 pb-md-0 mb-md-3 px-md-2" id="reg-header">Register and start your career quest test</h3>
+                <form id="student-form" class="px-md-3">
+                    <div class="form-outline" id="id-div">
+                        <input type="text" id="national_id" class="form-control" required>
+                        <div class="invalid-feedback">Please enter a valid national ID number</div>
+                        <label for="national_id" class="form-label mb-3">Your ID Number</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <div class="form-outline">
+                                <input type="text" id="your_name" class="form-control" required />
+                                <div class="invalid-feedback">Please enter a valid name</div>
+                                <label class="form-label" for="your_name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <select name="grade" id="gender" class="select">
+                                <option value="" disabled>Your Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 mb-3">
+                            <select name="title" id="title" class="select">
+                                <option value="" disabled>Title</option>
+                                <option value="Mr,">Mr</option>
+                                <option value="Mrs,">Mrs</option>
+                                <option value="Miss,">Miss</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10 mb-3">
+                            <div class="form-outline">
+                                <input type="text" id="your_teacher" class="form-control" required />
+                                <div class="invalid-feedback">Please enter a valid name for your guidance teacher. (eg.
+                                    F. Dlamini)</div>
+                                <label class="form-label" for="your_teacher">Your Career Guidance Teacher</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3 pb-2 pb-md-0 ">
+                        <div class="col-md-6">
+                            <div class="form-outline">
+                                <input type="text" id="your_school" class="form-control" required />
+                                <div class="invalid-feedback">Please enter a valid name of your school</div>
+                                <label class="form-label" for="your_school">Your School</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <select name="grade" id="grade" class="select">
+                                <option value="" disabled>Your Grade</option>
+                                <option value="Form 1">Form 1</option>
+                                <option value="Form 2">Form 2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="terms" required />
+                        <label class="form-check-label" for="terms">
+                            I agree all statements in <a href="#!">Terms of service</a>
+                        </label>
+                        <div class="invalid-feedback">Please agree to our terms.</div>
+                    </div>
+                    <input type="hidden" id="current_date" />
+                    <button type="submit" class="btn btn-success btn-lg mb-2" id="addStudent">Submit</button>
+                    <h5 class="py-3">Alredy registered? <span><a href="#">Login</a></span></h5>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--POPUP-->
+    <div class="popup-container" id="popup-container">
+        <!--Show spinner-->
+        <div id="loader"><img alt="" id="loading"></div>
+        <!-- <div class="popup center">
+            <div class="close-popup ">&times;</div>
+            <div class="icon"><i class="fa-regular fa-circle-check"></i></div>
+            <div class="popup_title h2">Success!!</div>
+            <div class="popup_text">
+                You have been successfully registered. Click button below to start your test.
+            </div>
+            <div class="continue-btn">
+                <button type="submit" id="continue-popup">Continue</button>
+            </div>
+        </div> -->
+    </div>
+    <footer></footer>
+</body>
+
+</html>
